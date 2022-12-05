@@ -6,7 +6,7 @@ export default {
     methods: {
         logout() {
             this.clearStorageForLogout();
-            window.location.href = '/#/admin_login';
+            window.location.href = '/#/';
         },
 
         clearStorageForLogout() {

@@ -192,27 +192,14 @@ const routes: RouteRecordRaw[] = [
   },
   {
     path: '/',
-    component: () => import('src/layouts/PublicLayout.vue'),
-    children: [
-      { path: '', component: () => import('pages/Home.vue') },
-      { path: '/about', component: () => import('pages/About.vue') },
-      { path: '/faqs', component: () => import('pages/faqs.vue') },
-      { path: '/examples', component: () => import('pages/Examples.vue') },
-      { path: '/contact', component: () => import('pages/contactus.vue') },
-      { path: '/getinvolved', component: () => import('pages/Getinvolved.vue') },
-      { path: '/fossilfreezones', component: () => import('pages/fossilfreezones.vue') },
-    ],
-
-  },
-
-  {
-    path: '/',
     component: () => import('src/layouts/blankLayout.vue'),
     children: [
-      { path: '/admin_login', component: () => import('pages/Login.vue')},
+      { path: '', component: () => import('pages/Login.vue')},
     ],
 
   },
+
+ 
 
   // Always leave this as last one,
   // but you can also remove it
