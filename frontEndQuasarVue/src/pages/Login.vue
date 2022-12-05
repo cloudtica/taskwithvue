@@ -90,7 +90,7 @@ import { api, getAuthorizationToken } from 'src/utils/APIs';
 
 
 export default defineComponent({
-    name: 'admin_login',
+    name: 'Login',
     mixins: [toasts, helperUtil,stringUtil, helperMixin, storageManagement],
     components: { Loader },
 
