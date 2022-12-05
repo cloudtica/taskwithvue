@@ -1,9 +1,9 @@
 {
-  "name": "all_in_one_marketing_crm",
+  "name": "ikonic_assessment_task",
   "version": "0.0.1",
-  "description": "All in one CRM ",
-  "productName": "All in one CRM ",
-  "author": "info@cloudtica.com <Cloudtica>",
+  "description": "Assessment Task ",
+  "productName": "Assessment Task ",
+  "author": "mr.abdulahad1994@gmail.com <Abdul Ahad>",
   "private": true,
   "scripts": {
     "lint": "eslint --ext .js,.ts,.vue ./",

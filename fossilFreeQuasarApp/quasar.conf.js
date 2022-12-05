@@ -144,9 +144,9 @@ module.exports = configure(function (ctx) {
       },
 
       manifest: {
-        name: 'All in one CRM',
-        short_name: 'All in one CRM ',
-        description: 'All in one CRM One Solution For All Your Business Problems ',
+        name: 'ikonic_assessment_task',
+        short_name: 'ikonic_assessment_task',
+        description: 'ikonic_assessment_task',
         display: 'standalone',
         orientation: 'portrait',
         background_color: '#ffffff',
@@ -189,7 +189,7 @@ module.exports = configure(function (ctx) {
       builder: {
         // https://www.electron.build/configuration/configuration
 
-        appId: 'all_in_one_marketing_crm',
+        appId: 'ikonic_assessment_task',
       },
 
       // "chain" is a webpack-chain object https://github.com/neutrinojs/webpack-chain
